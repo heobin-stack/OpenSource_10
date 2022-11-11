@@ -1,0 +1,61 @@
+<!--결제화면창-->
+<!DOCTYPE html>
+<html>
+<!-- Basic -->
+<meta charset="utf-8" />
+<!--background-->>
+<head>
+  <style>
+    *{padding: 0; margin: 0;}
+    body{background-color: beige; }
+    h2{background-color:lightgrey; color:rgb(0, 0, 0); text-align:center}
+    span{text-align:center}
+    form{text-align:center}
+    p{text-align:center}
+    img { 
+      display: block; margin: 0 auto;
+      width : 10%;
+      height: 4%; 
+    }
+  </style>
+</head>
+<!--결제화면 창-->>
+<body>
+  <!-- name.html -->
+  <div id="header">
+    <img src="img/logo.jpg">
+  </div>
+ 
+  <div id="nav">
+    <h2><b>주문/결제</b></h2>
+  </div>
+ 
+  <div id="section" style="text-align: center;">
+    <span>구매자정보</span>
+      <form>
+        이름: <input type="text" name="ireum"><br>
+        이메일: <input type="text" name="email"><br>
+        연락처: <input type="text" name="numbering"><br>
+      </form>
+    <span>받는사람정보</span>
+      <form id="section" style="text-align: center;">
+        이름: <input type="text" name="ireum"><br>
+        배송주소: <input type="text" name="juso"><br>
+        연락처: <input type="text" name="numbering"><br>
+        배송요청사항: <input type="text" name="client"><br>
+      </form>
+      <form id="section" style="text-align: center;">
+        <div>
+          <button type="submit"><a href="Mypage.html">결재하기</a></button>
+          <button type="submit" formtarget="_blank"><a href="index.html">취소</a></button>
+        </div>
+      </form>
+    </div><br>
+
+    <div id="footer">
+      <p>
+        &copy; 2022 All Rights Reserved By 10team 
+      </p>
+    </div>
+  </body>
+</html>
