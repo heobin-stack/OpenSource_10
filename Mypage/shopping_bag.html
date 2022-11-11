@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+    * {
+        margin: 0 auto;
+        padding: 0;
+        /* font-family:  */ /* 전체 글꼴 설정 */
+        background-color: rgb(230, 230, 230);
+    }
+
+    
+    h2 {
+        margin-top: 25px;
+        margin-left: 100px;
+        /* position: absolute; */
+        height: 50px;
+        width: 200px;
+        border: 1px solid green;
+        text-align: center;
+    }
+    
+    #outer_div {
+        background-color: white;
+        width: 1100px;
+        height: 500px;
+        margin: 100px;
+        margin-left: 200px;
+        border: 1px solid green;
+        position: absolute;
+        text-align: center;
+    }
+    
+    #inner_div {
+        margin: 30px;
+        width: 100px;
+        border: 1px solid green;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 42%;
+        transform: translateY(-50%);
+        
+    }
+    </style>
+</head>
+<body>
+    <h2> 쇼핑몰 이름 </h2>
+
+    <div id='outer_div'></div>
+    <div id='inner_div'> 장바구니 </div>
+</body>
+</html>
