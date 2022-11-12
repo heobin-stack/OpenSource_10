@@ -1,0 +1,9 @@
+git,github 대표적인 오류
+ㄴ github push, pull 권한 문제
+   ㄴ error : src refspec main does not match any
+ㄴ pull request에서 나는 충돌
+   ㄴmaster 브랜치에서 feature_x와 feature_y 브랜치를 동시에 생성
+   ㄴ feature_x는 README.md를 수정하여 master에 merge가 완료됨
+   ㄴ feature_y가 README.md를 수정하여 master에 pull request하는 순간 conflict 발생
+ㄴ merge
+   ㄴ refusing to merge unrelated histories
