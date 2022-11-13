@@ -24,6 +24,9 @@
         border: 1px solid green;
         text-align: center;
     }
+    div a {
+        text-decoration: none;
+    }
     
     #outer_div {
         background-color: white;
@@ -52,8 +55,7 @@
 <body>
     <h2> 쇼핑몰 이름 </h2>
 
-    <a hreft="결제목록.html">결제목록</a>
-    <div id='outer_div'></div>  <!-- 장바구니 목록 -->
-    <div id='inner_div'> 장바구니에 담긴 상품이 없습니다.</div>
+    <div id='outer_div'>장바구니에 담긴 상품이 없습니다. <a href="결제목록.html">결제목록으로 가기</a></div>  <!-- 장바구니 목록 -->
+    <!-- <div id='inner_div'></div> -->
 </body>
 </html>
