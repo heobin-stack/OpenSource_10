@@ -17,6 +17,7 @@
       width : 10%;
       height: 4%; 
     }
+    th{text-align: left;}
   </style>
 </head>
 <!--결제화면 창-->>
@@ -44,6 +45,54 @@
         연락처: <input type="text" name="numbering"><br>
         배송요청사항: <input type="text" name="client"><br>
       </form>
+      <!--결재금액 및 조회 -->
+      <table>
+        <h2>결제정보</h2>
+        <tbody>
+          <tr>
+            <th>총상품가격</th>
+            <td>Dolor</td>
+            <td>Dolor</td>
+            <td rowspan="2">Dolor</td>
+          </tr>
+          <tr>
+            <th>할인쿠폰</th>
+            <td>Dolor</td>
+            <td>Dolor</td>
+          </tr>
+          <tr>
+            <th>배송비</th>
+            <td>Dolor</td>
+            <td>Dolor</td>
+            <td>Dolor</td>
+          </tr>
+          <tr>
+            <th>마일리지</th>
+            <td >Dolor</td>
+            <td >Dolor</td>
+            <td >Dolor</td>
+          </tr>
+          <tr>
+            <th>총결제금액</th>
+            <td>Dolor</td>
+            <td>Dolor</td>
+            <td>Dolor</td>
+          </tr>
+          <tr>
+            <th>결제방법</th>
+            <td colspan="3">
+              <form><br>
+              <label><input type="radio" name="payway" value="Bank_Transfer" checked> 계좌이체</label>
+              <label><input type="radio" name="payway" value="mileage"> 마일리지</label>
+              <label><input type="radio" name="payway" value="a_credit/check_card" checked> 신용/체크 카드</label>
+              <label><input type="radio" name="payway" value="Corporate Card" checked> 법인카드</label>
+              <label><input type="radio" name="payway" value="Cell phone" checked> 휴대폰</label>
+              <label><input type="radio" name="payway" value="Deposit_without_bankbook(virtual account)" checked> 무통장입금(가상계좌)</label>
+            </form>
+          </td>
+          </tr>
+        </tbody>
+      </table>
       <form id="section" style="text-align: center;">
         <div>
           <button type="submit"><a href="Mypage.html">결제하기</a></button>
@@ -51,6 +100,8 @@
         </div>
       </form>
     </div><br>
+    <!--결재금액 및 조회 end-->
+    
 
     <div id="footer">
       <p>
