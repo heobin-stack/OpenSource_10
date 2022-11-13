@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>항목별 정렬메뉴</title>
+    <style>
+        @charset "UTF-8";
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul,li,ol{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: #333;
+        }
+        body{
+            display: flex;
+        }
+        .grobal{
+            width: 200px;
+            text-align: center;
+            line-height: 30px;
+        }
+        .grobal > .mainmenu{
+            background-color: rgb(45, 138, 182);
+        }
+        .grobal > .mainmenu > li > a{
+            color: #fff;
+        }
+        .submenu{
+            background-color: beige;
+        }
+        .submenu > li > a{
+            display: block;
+        }
+        .submenu > li > a:hover{
+            color: aqua;
+        }
+        .image > li > a > img{
+            width: 600px;
+            height: 420px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grobal"><!-- << 지역별 정렬 -->
+        <ul class="mainmenu">
+            <li>
+                <a href="#">지역항목</a>
+                <ul class="submenu">
+                    <li><a href="#">제주도</a></li>
+                    <li><a href="#">일본</a></li>
+                    <li><a href="#">하와이</a></li>
+                </ul>
+            </li>
+        </ul>        
+        <!-- << 가격별 정렬 -->
+        <ul class="mainmenu">
+            <li>
+                <a href="#">가격별 항목</a>
+                <ul class="submenu">
+                    <li><a href="#">10만원 이상</a></li>
+                    <li><a href="#">100만원 이상</a></li>
+                </ul>
+            </li>
+        </ul>          
+        <!-- << 상품별 정렬 -->
+        <ul class="mainmenu">
+            <li>
+                <a href="detail-page.html">다인 패키지</a>
+                <ul class="submenu">
+                    <li><a href="#">4인 가족 패키지</a></li>
+                    <li><a href="#">커플 패키지</a></li>
+                    <li><a href="#">6인 이상 할인 패키지</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="mainmenu">
+            <li>
+                <a href="detail-page.html">할인카드 적용품목</a>
+                <ul class="submenu">
+                    <li><a href="#">삼성카드</a></li>
+                    <li><a href="#">현대카드</a></li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+        <div class="image">
+            <li><a href="#"><img src="./img/hawai.webp" alt="하와이"></a></li>
+        </div>
+</body>
+</html>
